@@ -1,0 +1,45 @@
+{
+  "name": "datatables-demo",
+  "version": "1.0.0",
+  "description": "A User Registration Form built with React and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "nodemon server/index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "datatables.net": "^1.13.4",
+    "datatables.net-bs4": "^1.13.4",
+    "datatables.net-dt": "^1.13.4",
+    "mongoose": "^7.1.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "^5.0.1",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
